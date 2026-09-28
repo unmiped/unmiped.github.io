@@ -1,0 +1,19 @@
+:root{
+    --bg-primary: #000;
+    --text-main: #f1f1f1;
+    ---text-muted: #a1a1a1;
+}
+
+body{
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    color: var(---text-muted);
+    text-align: center;
+}
